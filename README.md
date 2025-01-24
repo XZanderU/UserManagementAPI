@@ -24,5 +24,5 @@ Esta es una **API RESTful** desarrollada en **.NET Core** y **C#** para realizar
 ### 1. Clonar el repositorio
 Clona el repositorio en tu máquina local:
 ```bash
-git clone https://github.com/tuusuario/UserManagementAPI.git
+git clone https://github.com/XZanderU/UserManagementAPI.git
 cd UserManagementAPI
