@@ -28,10 +28,12 @@ git clone https://github.com/XZanderU/UserManagementAPI.git
 cd UserManagementAPI
 
 2. Configurar la base de datos
+
 Actualiza el archivo appsettings.json con la cadena de conexión a tu base de datos.
 Ejecuta las migraciones para generar las tablas:
 dotnet ef database update
 3. Ejecutar la aplicación
+
 Inicia el servidor con:
 dotnet run
 La API estará disponible en http://localhost:5187.
@@ -43,6 +45,7 @@ GET	/api/users/{id}	Obtener un usuario por ID
 POST	/api/users	Crear un nuevo usuario
 PUT	/api/users/{id}	Actualizar un usuario por ID
 DELETE	/api/users/{id}	Eliminar un usuario por ID
+
 Pruebas
 Puedes probar la API utilizando herramientas como Postman o Swagger.
 
@@ -54,7 +57,7 @@ Crear pruebas automatizadas.
 Contribuciones
 ¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
 
-Creado por Tu Nombre John Alexander Urrea Garcia
+Creado por John Alexander Urrea Garcia
 
 ### **Archivo `.gitignore`**
 
